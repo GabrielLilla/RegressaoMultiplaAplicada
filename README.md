@@ -59,7 +59,7 @@ Verificação da qualidade do modelo completo via gráfico de resíduos vs. valo
 
 ## 🛠️ Tecnologias
 
-- **Python 3** (Google Colab)
+- **Python 3**
 - `pandas` — manipulação de dados
 - `numpy` — operações numéricas
 - `scikit-learn` — modelos de regressão e métricas
@@ -70,13 +70,32 @@ Verificação da qualidade do modelo completo via gráfico de resíduos vs. valo
 
 ## 🚀 Como Executar
 
-1. Acesse o notebook no [Google Colab](https://colab.research.google.com/drive/1_hIEe-0aUExc1vjp3lOdJ5_ZxNMpqio2?authuser=1#scrollTo=f5e0e746)
-2. Faça o upload ou monte o Google Drive com o arquivo `dataset_saas.csv`
-3. Ajuste o caminho do arquivo na **Célula 2** se necessário:
-   ```python
-   df = pd.read_csv('/content/drive/MyDrive/dataset_saas.csv')
-   ```
-4. Execute as células em ordem
+### Opção 1 — Localmente (Jupyter / VS Code)
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/GabrielLilla/RegressaoMultiplaAplicada.git
+cd RegressaoMultiplaAplicada
+
+# 2. Instale as dependências
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+# 3. Abra o notebook
+jupyter notebook RegressãoMultiplaAplicada.ipynb
+```
+
+Na **Célula 2**, substitua o trecho de montagem do Drive pelo caminho local do CSV:
+
+```python
+# Remova as linhas do drive.mount e use:
+df = pd.read_csv('dataset_saas.csv')
+```
+
+### Opção 2 — Google Colab
+
+1. Acesse o notebook em [Google Colab](https://colab.research.google.com/drive/1SkenM0SRgRmhHCm8QlFRkJqxysWCcddc?usp=sharing)
+2. Monte o Google Drive com o arquivo `dataset_saas.csv` na raiz
+3. Execute as células em ordem
 
 ---
 
@@ -84,6 +103,14 @@ Verificação da qualidade do modelo completo via gráfico de resíduos vs. valo
 
 ```
 ├── RegressãoMultiplaAplicada.ipynb   # Notebook principal
-├── dataset_saas.csv                  # Dataset (baixar separadamente)
+├── dataset_saas.csv                  # Dataset
 └── README.md                         # Este arquivo
 ```
+
+---
+
+## 👥 Grupo
+
+Atividade em grupos de **no máximo 2 alunos**.
+
+**Entrega:** até 18/04/2026 via Microsoft Teams
