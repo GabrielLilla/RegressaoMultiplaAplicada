@@ -1,16 +1,16 @@
-# 📊 Regressão Linear Múltipla — Estimativa de Custo SaaS
+# Regressão Linear Múltipla — Estimativa de Custo SaaS
 
-> **Atividade Dirigida 2 · CP2** — Construção e análise de modelos de regressão linear múltipla para prever o custo mensal de infraestrutura de clientes em uma plataforma SaaS.
+> Construção e análise de modelos de regressão linear múltipla para prever o custo mensal de infraestrutura de clientes em uma plataforma SaaS.
 
 ---
 
-## 📋 Contexto
+## Contexto
 
 Uma empresa de tecnologia deseja estimar o **custo mensal de infraestrutura** de seus clientes com base em características operacionais da conta. O objetivo é construir modelos preditivos que auxiliem no planejamento de recursos e precificação do serviço.
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 **Arquivo:** `dataset_saas.csv` — 1.338 registros, 7 variáveis
 
@@ -26,13 +26,13 @@ Uma empresa de tecnologia deseja estimar o **custo mensal de infraestrutura** de
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Construir e comparar modelos de regressão linear múltipla para prever `custo_mensal_infra`, avaliando o impacto de diferentes combinações de variáveis na qualidade do modelo.
 
 ---
 
-## 🔬 Sequência da Atividade
+##  Sequência da Atividade
 
 ### 1. Mapa de Calor de Correlações
 Geração de heatmap para identificar as correlações entre todas as variáveis numéricas, orientando a seleção das features mais promissoras.
@@ -57,7 +57,7 @@ Verificação da qualidade do modelo completo via gráfico de resíduos vs. valo
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Python 3**
 - `pandas` — manipulação de dados
@@ -68,7 +68,7 @@ Verificação da qualidade do modelo completo via gráfico de resíduos vs. valo
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Opção 1 — Localmente (Jupyter / VS Code)
 
@@ -99,18 +99,10 @@ df = pd.read_csv('dataset_saas.csv')
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ├── RegressãoMultiplaAplicada.ipynb   # Notebook principal
 ├── dataset_saas.csv                  # Dataset
 └── README.md                         # Este arquivo
 ```
-
----
-
-## 👥 Grupo
-
-Atividade em grupos de **no máximo 2 alunos**.
-
-**Entrega:** até 18/04/2026 via Microsoft Teams
